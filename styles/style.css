@@ -24,8 +24,14 @@
     background-color: yellow;
 }
 
-.menu_1 {
-    flex: 1;
+a {
+    text-decoration: none;
+    color: #aaa;
+    transition: color 0.2s ease-in;
+}
+
+a:hover {
+    color: #fff;
 }
 
 main {
@@ -34,13 +40,13 @@ main {
 
 
 .menu_1 {
-    width: 348px;
+    width: 337px;
     height: 151px;
     background-color: var(--bg-background);
     color: #fff;
     border-radius: 7px;
     margin-top: 7px;
-    margin-left: 0.5px;
+    margin-left: 10px;
 }
 
 ul {
@@ -52,13 +58,14 @@ ul {
 
 .menu_1 li {
     list-style-type: none;
-    margin: 10px;
-    font-size: 18px;
+    /* margin: 10px; */
+    padding: 12px;
+    font-size: 17px;
 }
 
 .menu_1 ul li i {
     color: #fff;
-    margin-right: 5px;
+    margin-right: 18px;
 }
 .li_white li{
     color: #aaa;
@@ -67,4 +74,33 @@ ul {
 
 main {
     margin-left: 50px;
+}
+
+.menu_1 .biblioteca {
+    width: 337px;
+    background-color: var(--bg-background);
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.plus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #aaa;
+    transition: color 0.2s ease-in;
+}
+
+.plus:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.criar_playlist {
+    display: flex;
+    width: 314px;
+    height: 135px;
+    background-color: #242424;
+    border-radius: 7px;
+    margin-top: 10px;
 }
