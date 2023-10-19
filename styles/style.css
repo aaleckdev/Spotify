@@ -84,7 +84,7 @@ main {
 }
 
 .plus {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     color: #aaa;
@@ -96,11 +96,19 @@ main {
     color: #fff;
 }
 
-.criar_playlist {
+.fa-plus {
+    margin-left: 80px;
+}
+
+.biblioteca .criar_playlist {
     display: flex;
-    width: 314px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 318px;
     height: 135px;
     background-color: #242424;
     border-radius: 7px;
     margin-top: 10px;
+    margin: auto;
 }
+
