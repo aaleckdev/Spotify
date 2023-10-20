@@ -128,8 +128,90 @@ main {
     height: 35px;
     margin-left: 25px;
     border-radius: 20px;
+    border: 1px solid #fff;
     background-color: #fff;
     color: #000;
     font-weight: bold;
     font-size: 14px;
+    border: 0;
+}
+
+.criar_playlist button:hover {
+    width: 116px;
+    height: 37px;
+}
+
+.biblioteca .podcast {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 318px;
+    height: 145px;
+    background-color: #242424;
+    border-radius: 7px;
+    margin: auto;
+}
+
+.podcast p{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.podcast h4{
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.podcast button{
+    width: 142px;
+    height: 35px;
+    margin-left: 25px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.podcast button:hover {
+    width: 145px;
+    height: 37px;
+    border: 0;
+}
+
+.final {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 318px;
+    height: 110px;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.final a {
+    font-size: 10px;
+}
+
+.final button{
+    width: 172px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: #121212;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 36px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.final button i {
+    margin: 5px;
+}
+
+.final button:hover {
+    width: 176px;
+    height: 35px;
 }
