@@ -212,28 +212,32 @@ main {
 main {
     width: 1174px;
     height: 680px;
-    /* background-color: #fff; */
+    background-color: #fff;
     border-radius: 7px;
 }
 
-main header {
+header {
+    display: flex;
     color: #fff;
     width: 1174px;
     height: 64px;
     background-color:#101010;
 }
 
-header .left {
+.left_right {
+    width: 40px;
+    background-color: yellow;
+    flex: 2;
+}
+
+header .left_right button{
+    margin: 13px;
+}
+
+
+header nav {
     flex: 1;
 }
 
 
 
-header .right {
-    flex: 1;
-}
-
-
-.right li{
-    display: flex;
-}
