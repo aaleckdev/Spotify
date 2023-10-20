@@ -102,13 +102,34 @@ main {
 
 .biblioteca .criar_playlist {
     display: flex;
+    align-items:flex-start;
     flex-direction: column;
-    align-items: flex-start;
     width: 318px;
-    height: 135px;
+    height: 155px;
     background-color: #242424;
     border-radius: 7px;
     margin-top: 10px;
     margin: auto;
 }
 
+.criar_playlist p{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.criar_playlist h4{
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.criar_playlist button{
+    width: 115px;
+    height: 35px;
+    margin-left: 25px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
