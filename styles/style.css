@@ -17,13 +17,6 @@
 }
 
 
-
-.container main {
-    width: 80px;
-    height: 80px;
-    background-color: yellow;
-}
-
 a {
     text-decoration: none;
     color: #aaa;
@@ -33,11 +26,6 @@ a {
 a:hover {
     color: #fff;
 }
-
-main {
-    flex: 3;
-}
-
 
 .menu_1 {
     width: 337px;
@@ -214,4 +202,38 @@ main {
 .final button:hover {
     width: 176px;
     height: 35px;
+}
+
+main {
+    /* flex: 1; */
+    margin: 10px;
+}
+
+main {
+    width: 1174px;
+    height: 680px;
+    /* background-color: #fff; */
+    border-radius: 7px;
+}
+
+main header {
+    color: #fff;
+    width: 1174px;
+    height: 64px;
+    background-color:#101010;
+}
+
+header .left {
+    flex: 1;
+}
+
+
+
+header .right {
+    flex: 1;
+}
+
+
+.right li{
+    display: flex;
 }
