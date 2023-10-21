@@ -178,9 +178,9 @@ main {
     align-items:flex-start;
     flex-direction: column;
     width: 318px;
-    height: 110px;
+    height: 127px;
     border-radius: 7px;
-    margin: 20px;
+    margin: auto;
 }
 
 .final a {
@@ -209,7 +209,7 @@ main {
 }
 
 main {
-    /* flex: 1; */
+    flex: 1;
     margin: 10px;
 }
 
