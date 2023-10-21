@@ -8,11 +8,15 @@
     --bg-background: #121212;
 }
 
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 
 .container {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 85%;
     background-color: #000;
 }
 
@@ -221,17 +225,22 @@ header {
     color: #fff;
     /* width: 1174px; */
     height: 64px;
-    /* background-color:#101010; */
+    background-color:#101010;
 }
 
 .left_right {
     width: 40px;
-    background-color: yellow;
-    flex: 2;
+    /* background-color: yellow; */
+    flex: 1;
 }
 
 header .left_right button{
+    width: 25px;
+    height: 25px;
     margin: 13px;
+    background-color: #0a0a0a;
+    color: #fff;
+    border-radius: 50%;
 }
 
 
@@ -239,6 +248,108 @@ header nav {
     flex: 1;
 }
 
-nav {
-    background-color: aqua;
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    /* margin: 5px; */
+    font-weight: bold;
+}
+
+nav li {
+    margin: 5px;
+    list-style: none;
+}
+
+nav ul .btn{
+    width: 104px;
+    border: none;
+    text-align: center;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 66px;
+    background: linear-gradient(to right, #AE2997,#9A41AA,#796BCD,#6087E5);
+}
+
+footer .decription {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.decription a {
+    color: #fff;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+footer .submit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: 41px;
+}
+
+.submit button {
+    width: 196px;
+    height: 42px;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+    color: #000;
+}
+
+.submit button:hover {
+    width: 198px;
+    height: 45px;
 }
