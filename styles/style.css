@@ -219,9 +219,9 @@ main {
 header {
     display: flex;
     color: #fff;
-    width: 1174px;
+    /* width: 1174px; */
     height: 64px;
-    background-color:#101010;
+    /* background-color:#101010; */
 }
 
 .left_right {
@@ -239,5 +239,6 @@ header nav {
     flex: 1;
 }
 
-
-
+nav {
+    background-color: aqua;
+}
