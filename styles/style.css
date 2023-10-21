@@ -216,8 +216,8 @@ main {
 main {
     width: 1174px;
     height: 680px;
-    background-color: #fff;
-    border-radius: 7px;
+    background-color: #1E1E1E;
+    color: #fff;
 }
 
 header {
@@ -274,43 +274,46 @@ nav ul .btn{
 }
 
 
+.cars_music {
+    display: flex;
+}
 
 
+.cars_music div {
+    width: 207px;
+    height: 298px;
+    margin: 20px;
+    background-color: #282828;
+    border-radius: 7px;
+}
 
 
+.cars_music div img {
+    width: 181px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin: 6px;
+    transition: all 1s ease-in-out;
+}
 
 
+.cars_music div:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
 
 
+figure {
+    color: #fff;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+figcaption {
+    color: #aaa;
+    margin-top: 8px;
+    font-size: 14px;
+}
 
 
 footer {
@@ -330,6 +333,7 @@ footer .decription {
     color: #fff;
     padding: 5px;
     margin-left: 5px;
+    font-size: 13px;
 }
 
 footer .submit {
